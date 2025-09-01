@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(33, 170, 170);
+}
+
+#lista {
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+}
+
+#itemLista {
+    background-color: rgb(255, 255, 255);
+    margin: 6px;
+}
