@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Web: HTML - 01.09 | Usabilidade, desenvolvimento web, mobile e jogos</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 1.6;
+      }  
+
+      header {
+        background-color: rgb(235, 235, 235);
+        color: cornflowerblue;
+        padding: 10px 0;
+      }
+
+      main {
+        background-color: rgb(255, 221, 200);
+        color: rgb(59, 31, 14);
+        padding: 10px 0;
+      }
+
+    </style>
+
+</head>
+<body>
+    <!----------------- Header ------------------->
+    <header>
+        <h1 style="color: cornflowerblue;">HTML - 01.09</h1>
+        <p>Usabilidade, desenvolvimento <strong>web</strong>, mobile e jogos</p>
+    </header>
+
+
+    <!----------------- Main ------------------->
+    <main>
+        <p>Seção Principal</p>
+    </main>
+
+
+    <!------------- Tags de Título ------------>
+    <div>
+    <h1 style="color: rgb(237, 100, 180);">Títulos</h1>
+    <h1>Olá mundo!</h1>
+    <h2>Olá mundo!</h2>
+    <h3>Olá mundo!</h3>
+    <h4>Olá mundo!</h4>
+    <h5>Olá mundo!</h5>
+    <h6>Olá mundo!</h6>
+    </div>
+
+    <!------------- Tags de Lista ------------->
+    
+    <div id="lista">
+    <h2 style="color: rgb(255, 155, 40);">Listas</h2>
+    <ol>
+        <li id="itemLista">Primeiro item</li>
+        <li id="itemLista">Segundo item</li>
+        <li id="itemLista">Terceiro item</li>
+    </ol>
+    </div>
+
+    <div id="lista">
+    <ul>
+        <li id="itemLista">Primeiro item</li>
+        <li id="itemLista">Segundo item</li>
+        <li id="itemLista">Terceiro item</li>
+    </ul>
+    </div>
+
+    <!------------ Listas Aninhadas ------------>
+    <div id="listaAninhada">
+    <h2 style="color: rgb(155, 73, 233);">Listas Aninhadas</h2>
+    <ul>
+        <li>Primeiro Bloco
+            <ul>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+            </ul>
+        </li>
+        <br>
+        <li>Segundo Bloco
+            <ul>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+
+    <!------------ Links e Parágrafos ------------>
+    <div id="parágrafo">
+    <h2 style="color: rgb(81, 214, 148);">Links e Parágrafos</h2>
+    <p>Este é um parágrafo</p>
+    <a href="https://google.com" target="_blank">Visite nosso site</a>
+    </div>
+    <br>
+
+    <!---------------- Imagens ------------------>
+    <div id="imagens">
+    <h2 style="color: rgb(245, 97, 77);">Imagens</h2>
+    <img src="images/siam.jpg" alt="Descrição da Imagem" width="600px" height="auto">
+    </div>
+
+
+    <!---------------- Áudio ------------------>
+    <div id="audio">
+    <h2 style="color: #6A5ACD">Áudio</h2>
+    <audio controls>
+        <source src="audio/miracle-11151.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio
+    </audio>
+    </div>
+    <br>
+
+    <!---------------- iFrame ------------------>
+    <nav id="videoYoutube">
+    <h2 style="color: #00CED1">Vídeo YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uuAggrZqmhs?si=Y44hgrpTdBmgqvxj" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </nav>
+
+</body>
+</html>
